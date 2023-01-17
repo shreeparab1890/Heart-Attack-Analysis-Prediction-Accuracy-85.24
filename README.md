@@ -88,4 +88,4 @@ You can go through the iPython file for more in detail EDA results. Here is the 
      - random_forest  :  80.32786885245902  
      
 ## Conclusion: 
-The Optimized KNN for K=14 works best for the above scenario. 
+The Optimized KNN for K=14 works best with the accuracy of 85.24 for the above scenario. 
