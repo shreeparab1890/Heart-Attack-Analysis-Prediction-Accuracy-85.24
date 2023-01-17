@@ -36,3 +36,26 @@ Multi-layer perceptron (MLP) and Convolutional Neural Networks (CNNs) are two ty
 K-Nearest Neighbors (KNN) is a machine learning (ML) algorithm that can be used for heart attack prediction. The KNN algorithm is a non-parametric method that can be used for both classification and regression tasks.  
 In the context of heart attack prediction, KNN would be used for classification, where the goal is to predict whether a patient is likely to have a heart attack or not. The algorithm works by finding the k nearest data points to a new patient in the training dataset and then classifying the new patient based on the majority class of the k nearest data points. The key to the KNN algorithm is the distance metric used to find the nearest neighbors. Commonly used distance metrics include Euclidean, Manhattan, and Minkowski distance. The choice of distance metric will depend on the nature of the data and the specific problem being solved.
 
+## About Dataset:  
+    - Age : Age of the patient  
+    - Sex : Sex of the patient  
+    - exng: exercise induced angina (1 = yes; 0 = no)  
+    - caa: number of major vessels (0-3)  
+    - cp : Chest Pain type chest pain type  
+           Value 1: typical angina  
+           Value 2: atypical angina  
+           Value 3: non-anginal pain  
+           Value 4: asymptomatic  
+    - trtbps : resting blood pressure (in mm Hg)  
+    - chol : cholestoral in mg/dl fetched via BMI sensor  
+    - fbs : (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)  
+    - restecg : resting electrocardiographic results  
+           Value 0: normal  
+           Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)  
+           Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria  
+    - thalach : maximum heart rate achieved    
+    - oldpeak : Previous peak
+    - slp: Slope  
+    - thal : Thal rate
+    - Output : 0 = less chance of heart attack 1 = more chance of heart attack
+
