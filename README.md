@@ -59,6 +59,6 @@ The Dataset hav 303 rows and 14 columns:
     - slp: Slope  
     - thal : Thal rate
     - Output : 0 = less chance of heart attack 1 = more chance of heart attack  
-There is one duplicate row in the dataset and no null values. 
+
 
 
