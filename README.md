@@ -16,26 +16,23 @@ You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnap
 
 
 # Introduction
-Heart attacks, also known as myocardial infarctions, occur when the blood flow to a portion of the heart is blocked, usually by a clot in a coronary artery. This lack of blood flow causes damage or death of the heart muscle.
-
-There are several risk factors for heart attacks, including high blood pressure, high cholesterol, smoking, diabetes, and a family history of heart disease. Some of these risk factors can be controlled through lifestyle changes and medication, while others cannot be changed.
-
-There are several methods for predicting the risk of a heart attack, including the Framingham Risk Score and the Reynolds Risk Score. These scores take into account several risk factors, including age, gender, cholesterol levels, and blood pressure.
-
+Heart attacks, also known as myocardial infarctions, occur when the blood flow to a portion of the heart is blocked, usually by a clot in a coronary artery. This lack of blood flow causes damage or death of the heart muscle. There are several risk factors for heart attacks, including high blood pressure, high cholesterol, smoking, diabetes, and a family history of heart disease. Some of these risk factors can be controlled through lifestyle changes and medication, while others cannot be changed. There are several methods for predicting the risk of a heart attack, including the Framingham Risk Score and the Reynolds Risk Score. These scores take into account several risk factors, including age, gender, cholesterol levels, and blood pressure.  
 Machine learning and predictive modeling techniques can also be used to predict the risk of heart attacks using electronic health records (EHRs) and other data sources.
-
 There are several machine learning (ML) techniques that can be used for analyzing and predicting heart attacks. Some of the most commonly used techniques include:
+## Logistic regression:  
+A simple yet powerful technique that can be used to predict binary outcomes, such as the presence or absence of a heart attack.
+## Decision trees:  
+A tree-based model that can be used to identify the most important risk factors for a heart attack and the threshold values at which they become significant.
+## Random forest:  
+An extension of decision trees that uses multiple trees and averaging to improve the accuracy and robustness of predictions.
+## Gradient boosting:  
+An ensemble technique that combines multiple weak models to create a stronger overall model.
+## Support Vector Machines (SVMs):  
+A technique that can be used to classify patients into different risk groups based on multiple features.
+## Neural networks:  
+Multi-layer perceptron (MLP) and Convolutional Neural Networks (CNNs) are two types of neural networks that can be used to identify complex patterns and relationships in patient data.
 
-Logistic regression: A simple yet powerful technique that can be used to predict binary outcomes, such as the presence or absence of a heart attack.
+## K-Nearest Neighbors (KNN)
+K-Nearest Neighbors (KNN) is a machine learning (ML) algorithm that can be used for heart attack prediction. The KNN algorithm is a non-parametric method that can be used for both classification and regression tasks.  
+In the context of heart attack prediction, KNN would be used for classification, where the goal is to predict whether a patient is likely to have a heart attack or not. The algorithm works by finding the k nearest data points to a new patient in the training dataset and then classifying the new patient based on the majority class of the k nearest data points. The key to the KNN algorithm is the distance metric used to find the nearest neighbors. Commonly used distance metrics include Euclidean, Manhattan, and Minkowski distance. The choice of distance metric will depend on the nature of the data and the specific problem being solved.
 
-Decision trees: A tree-based model that can be used to identify the most important risk factors for a heart attack and the threshold values at which they become significant.
-
-Random forest: An extension of decision trees that uses multiple trees and averaging to improve the accuracy and robustness of predictions.
-
-Gradient boosting: An ensemble technique that combines multiple weak models to create a stronger overall model.
-
-Support Vector Machines (SVMs): A technique that can be used to classify patients into different risk groups based on multiple features.
-
-Neural networks: Multi-layer perceptron (MLP) and Convolutional Neural Networks (CNNs) are two types of neural networks that can be used to identify complex patterns and relationships in patient data.
-
-Deep Learning: A subset of ML which uses multiple layers of neural networks to extract features automatically from the data.
