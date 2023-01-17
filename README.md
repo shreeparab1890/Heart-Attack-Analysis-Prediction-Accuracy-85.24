@@ -67,8 +67,7 @@ You can go through the iPython file for more in detail EDA results. Here is the 
     - Data Scaling: This is done using standardScalar from sklearn
     - We have use StratifiedShuffleSplit so that the test and traing data has equal number of Output values. 
 
-## Model Training:
-We have used set of Algorithms to check which algoritm gives us the max accuracy.  
+## Model Training: We have used set of Algorithms to check which algoritm gives us the max accuracy.  
      - logistic_regression   
      - Gaussian_Naive_Bayes  
      - Bernoulli_Naive_Bayes  : 
@@ -78,8 +77,7 @@ We have used set of Algorithms to check which algoritm gives us the max accuracy
      - X_Gradient_Boosting  
      - random_forest  
 
-## Results:
-We have Evaluated and compared set of algorithms for the predictions and we have the results as below:  
+## Results: We have Evaluated and compared set of algorithms for the predictions and we have the results as below:  
      - logistic_regression  :  78.68852459016394  
      - Gaussian_Naive_Bayes  :  81.9672131147541  
      - Bernoulli_Naive_Bayes  :  80.32786885245902  
